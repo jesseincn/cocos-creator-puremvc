@@ -4,4 +4,10 @@ export class FetchTestVO {
     public constructor(){
 
     }
+
+    public clone():FetchTestVO{
+        let fetchTestVO:FetchTestVO = new FetchTestVO();
+        fetchTestVO.value = this.value;
+        return fetchTestVO;
+    }
 }
