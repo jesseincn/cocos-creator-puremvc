@@ -1,4 +1,4 @@
-import { GAME_STATUS } from "../../Constants";
+import { GAME_STATUS } from "../Constants";
 
 export default class GameProxy extends puremvc.Proxy implements puremvc.IProxy {
     public static NAME: string = "GameProxy";
