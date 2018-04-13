@@ -1,4 +1,4 @@
-import { Test } from "../services/api";
+import GameProxy from "../model/GameProxy";
 
 export default class StartViewMediator extends puremvc.Mediator implements puremvc.IMediator {
     public static NAME: string = "StartViewMediator";
@@ -22,9 +22,8 @@ export default class StartViewMediator extends puremvc.Mediator implements purem
         this.viewComponent.startButton.node.on('click', (event) => {
             cc.log('click.');
 
-            Test({'val': 1}).then((result: any) => {
-                cc.log(result.data);
-            });
+            const gameProxy: GameProxy = <GameProxy>this.facade.retrieveProxy(GameProxy.NAME);
+            gameProxy.fetchTest();
         });
     }
 

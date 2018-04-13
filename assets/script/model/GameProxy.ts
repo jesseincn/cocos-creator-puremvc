@@ -1,4 +1,5 @@
 import { GAME_STATUS } from "../Constants";
+import { Test } from "../services/api";
 
 export default class GameProxy extends puremvc.Proxy implements puremvc.IProxy {
     public static NAME: string = "GameProxy";
@@ -22,5 +23,11 @@ export default class GameProxy extends puremvc.Proxy implements puremvc.IProxy {
      */
     public reset(): void {
 
+    }
+
+    public fetchTest() {
+        Test({'val': 1}).then((result: any) => {
+            cc.log(result.data);
+        });
     }
 }
