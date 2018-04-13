@@ -1,6 +1,6 @@
-import ControllerPrepCommand from './bootstrap/ControllerPrepCommand';
-import ModelPrepCommand from './bootstrap/ModelPrepCommand';
-import ViewPrepCommand from './bootstrap/ViewPrepCommand';
+import BootstrapCommands from './bootstrap/BootstrapCommands';
+import BootstrapModels from './bootstrap/BootstrapModels';
+import BootstrapViews from './bootstrap/BootstrapViews';
 
 export default class StartupCommand extends puremvc.MacroCommand {
     public constructor() {
@@ -8,8 +8,8 @@ export default class StartupCommand extends puremvc.MacroCommand {
     }
 
     public initializeMacroCommand(): void {
-        this.addSubCommand(ControllerPrepCommand);
-        this.addSubCommand(ModelPrepCommand);
-        this.addSubCommand(ViewPrepCommand);
+        this.addSubCommand(BootstrapCommands);
+        this.addSubCommand(BootstrapModels);
+        this.addSubCommand(BootstrapViews);
     }
 }

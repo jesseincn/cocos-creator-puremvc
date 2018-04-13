@@ -1,6 +1,6 @@
-import GameProxy from "../../model/proxy/GameProxy";
+import GameProxy from "../../model/GameProxy";
 
-export default class ModelPrepCommand extends puremvc.SimpleCommand implements puremvc.ICommand {
+export default class BootstrapModels extends puremvc.SimpleCommand implements puremvc.ICommand {
     public constructor() {
         super();
     }

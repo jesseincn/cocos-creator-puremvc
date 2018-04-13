@@ -1,4 +1,4 @@
-export default class ViewPrepCommand extends puremvc.SimpleCommand implements puremvc.ICommand{
+export default class BootstrapViews extends puremvc.SimpleCommand implements puremvc.ICommand{
     public constructor() {
         super();
     }
