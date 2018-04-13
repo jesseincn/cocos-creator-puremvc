@@ -1,3 +1,5 @@
+import { Test } from "../services/api";
+
 export default class StartViewMediator extends puremvc.Mediator implements puremvc.IMediator {
     public static NAME: string = "StartViewMediator";
 
@@ -19,6 +21,10 @@ export default class StartViewMediator extends puremvc.Mediator implements purem
     public onRegister(): void {
         this.viewComponent.startButton.node.on('click', (event) => {
             cc.log('click.');
+
+            Test({'val': 1}).then((result: any) => {
+                cc.log(result.data);
+            });
         });
     }
 

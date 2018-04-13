@@ -111,7 +111,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Start Button",
+    "_name": "Test Button",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -236,7 +236,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "Start",
+    "_N$string": "Test API",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
