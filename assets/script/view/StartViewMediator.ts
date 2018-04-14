@@ -7,7 +7,7 @@ export default class StartViewMediator extends puremvc.Mediator implements purem
         super(StartViewMediator.NAME, viewComponent);
     }
 
-    public listNotificationInterests(): Array<any> {
+    public listNotificationInterests(): string[] {
         return [];
     }
 
