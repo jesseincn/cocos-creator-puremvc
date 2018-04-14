@@ -63,13 +63,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 8
-      },
-      {
         "__id__": 9
       },
       {
         "__id__": 10
+      },
+      {
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -125,10 +125,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 6
+        "__id__": 7
       },
       {
-        "__id__": 7
+        "__id__": 8
       }
     ],
     "_prefab": null,
@@ -149,7 +149,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
+      "width": 200,
       "height": 40
     },
     "_rotationX": 0,
@@ -181,10 +181,13 @@
     "_components": [
       {
         "__id__": 5
+      },
+      {
+        "__id__": 6
       }
     ],
     "_prefab": null,
-    "_id": "2bwvuG5GZJeLuEbepduYfO",
+    "_id": "70+XvlBMdIyLRvHQaQTxRT",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -201,8 +204,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 120,
+      "height": 30
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -229,18 +232,28 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_actualFontSize": 20,
-    "_fontSize": 20,
-    "_lineHeight": 40,
-    "_enableWrapText": false,
+    "_actualFontSize": 30,
+    "_fontSize": 30,
+    "_lineHeight": 30,
+    "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "Test API",
+    "_N$string": "测试按钮",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 1
+    "_N$overflow": 0
+  },
+  {
+    "__type__": "744dcs4DCdNprNhG0xwq6FK",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 4
+    },
+    "_enabled": true,
+    "_dataID": "Test Button"
   },
   {
     "__type__": "cc.Sprite",
@@ -365,8 +378,8 @@
       "__id__": 2
     },
     "_enabled": true,
-    "startButton": {
-      "__id__": 7
+    "testButton": {
+      "__id__": 8
     }
   }
 ]

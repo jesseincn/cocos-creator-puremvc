@@ -49,4 +49,5 @@ cocos-creator-puremvc 是一个cocos creator项目基础架构。
     通常应该遵从了这个规则，但实际上项目Mediator中不可避免需要获取Proxy数据，如果每次都通过一个Notification去获取数据，然后返回数据给Mediator，这样无形中增加了通信次数、带反馈数据的通信加重通信负担。所以可以适当是的在Mediator中facade.retrieveProxy获取Proxy然后拿到数据，而且从proxy直接拿数据，可以保证拿到最新数据。 
 
 ### 参考文档
-[PureMVC（AS3）剖析：实例](http://www.cnblogs.com/skynet/archive/2013/01/29/2881244.html)
+* [PureMVC（AS3）剖析：实例](http://www.cnblogs.com/skynet/archive/2013/01/29/2881244.html)
+* [i18n](http://docs.cocos.com/creator/manual/zh/advanced-topics/i18n.html)
