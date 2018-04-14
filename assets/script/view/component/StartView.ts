@@ -5,7 +5,7 @@ import StartViewMediator from '../StartViewMediator';
 @ccclass
 export default class StartView extends cc.Component {
     @property(cc.Button)
-    startButton: cc.Button = null;
+    testButton: cc.Button = null;
 
     // onLoad () {}
 

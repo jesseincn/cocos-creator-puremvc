@@ -19,7 +19,7 @@ export default class StartViewMediator extends puremvc.Mediator implements purem
     }
 
     public onRegister(): void {
-        this.viewComponent.startButton.node.on('click', (event) => {
+        this.viewComponent.testButton.node.on('click', (event) => {
             cc.log('click.');
 
             const gameProxy: GameProxy = <GameProxy>this.facade.retrieveProxy(GameProxy.NAME);

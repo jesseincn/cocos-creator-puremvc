@@ -365,7 +365,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "startButton": {
+    "testButton": {
       "__id__": 7
     }
   }
