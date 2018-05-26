@@ -1,3 +1,5 @@
+import fetch = require("isomorphic-fetch");
+
 function parseJSON(response) {
     return response.json();
 }

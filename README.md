@@ -4,7 +4,6 @@ cocos-creator-puremvc 是一个cocos creator项目基础架构。
 ### 技术栈
 * typescript
 * puremvc
-* fetch 使用的是es6版本，如果旧浏览器不支持，需要更换为[fetch-polyfill](https://www.npmjs.com/package/fetch-polyfill)
 * [protobufjs](https://github.com/dcodeIO/protobuf.js)
 
 ### 安装
